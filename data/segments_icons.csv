@@ -1,0 +1,36 @@
+name,parent,value,code
+Adult,Origin,19,👄
+Antiques & Collectibles,Origin,32,🥄
+Apparel,Origin,1790,👚
+Arts & Entertainment,Origin,85,🎨
+Attractions,Origin,1,🏖
+Autos & Vehicles,Origin,52,🚙
+Beauty & Fitness,Origin,446,💅
+Books & Literature,Origin,13,📚
+Business & Industrial,Origin,59,🏢
+Computers,Origin,76,💻
+Consumer Electronics,Origin,119,📺
+Coupons & Discounts,Origin,6,🈹
+Finance,Origin,8,💰
+Food & Drink,Origin,140,🍕
+Games,Origin,29,🎮
+Gifts & Special Events,Origin,89,🎁
+Health,Origin,88,🧬
+Holidays & Seasonal,Origin,8,🎊
+Home & Garden,Origin,457,🛋
+Internet,Origin,9,📡 
+Jobs & Education,Origin,15,👩‍💻
+Libraries & Museums,Origin,1,🏛
+Mass Merchants & Department Stores,Origin,2,🏨
+Origin,,,
+N/A,Origin,,🗑
+Other,Origin,,🗑
+People & Society,Origin,149,👫🏻
+Pets & Animals,Origin,91,🦮
+Safety & Survival,Origin,6,🔒
+Science,Origin,5,🔬
+Smoking & Vaping,Origin,30,🍁
+Sports,Origin,91,🚴‍♂️
+Toys & Hobbies,Origin,127,🧸
+Travel,Origin,17,✈️
+Wedding,Origin,10,👰

@@ -1,0 +1,403 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>eCom Gurus</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+   <!-- Fontawesome CDN -->
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body class="back1">
+
+<!-- Top Nav -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <!-- eCom Gurus logo -->
+    <a class="navbar-brand" href="index.html">
+        <img src="imgs/onollo_logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <span class="m-2">Analytics</span>
+    </a>
+    <!-- Nav items -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Overview</a>
+            <a class= "last-item-breaker"></a>
+            <a class="nav-item nav-link" href="kpi.html">KPIs</a>
+            <a class="nav-item nav-link" href="engagement.html">Engagement</a>
+            <a class="nav-item nav-link" href="geo.html">Geography</a>
+            <a class="nav-item nav-link" href="segments.html">Customer Segments</a>
+            <a class="nav-item nav-link" href="pricing.html">Pricing Plans</a>
+            <a class="nav-item nav-link" href="recommendations.html">Recommendations</a>
+        </div>
+    </div>
+</nav>
+
+<!-- wrapper -->
+<div class="container-fluid" style="padding-top: 1vh">
+
+    <!-- Title -->
+    <header class="page-header">
+        <h1>About Project</h1>
+    </header>
+
+    <!-- Intro and arrows -->
+    <div class="row">
+        <div class="col-1 brief">
+        </div>
+
+        <div class="col brief">
+            This case study is based on Onollo's dataset which currently includes over 10,000 stores.  As we have
+            launched the paid version of the product, we want to identify the most active power-users, and offer
+            them a paid version of the product. For this reason, we are using data exploration and visualization
+            to identify the customer personas (Producer, Distributor, and Agency) that our audience (Onollo's CEO,
+            Marketing Team, and UX Researcher) should focus on to keep up with the demand for the paid version
+            of the product. The key questions to consider as you move through this dashboard are:
+            <br><br>
+                <ol>
+                    <li>Where are Onollo's customers located?</li>
+                    <li>What do they sell?</li>
+                    <li>Who are Onollo's power users?</li>
+                </ol>
+<!--            <br>-->
+<!--            As you move through the data story by clicking on the arrows on either side of the page, keep in mind-->
+<!--            the types of personas we have identified for Onollo customers.-->
+
+        </div>
+        
+        <!-- Arrow right -->
+        <div class="col-1 brief">
+            <a href="kpi.html">
+                <i class="fas fa-chevron-right fa-7x"></i>
+            </a>
+        </div>
+    </div>
+    
+    <hr>
+
+    <div class="container">
+    <!-- Intro and arrows -->
+    <div class="row">
+            <!-- VIDEO INTRO -->
+        <iframe width="100%" height="700px" src="https://www.youtube.com/embed/VQQR1VPeuWk" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+
+        <!--div class="col brief">
+            <p>This is a real dataset from Artin Bogdanov's start-up, Onollo. Onollo is a social media management
+            solution for eCommerce stores.  The company launched its service a year ago as a freemium product. Over the
+            course of the year, Onollo helped over 10,000 stores to sign up and use their product.  In the recent
+            weeks, Onollo launched a paid version of the product with various plans.  See below for details on the
+            different plans.</p>
+            <p>The goal of this project is to identify the most active power-users, and offer them a paid version of
+            the product. For this reason, we are using data exploration and visualization to identify the customer
+            personas (Brand, Distributor, and Agency) that our audience (Onollo's CEO, Marketing Team, and UX
+            Researcher) should focus on to keep up with the demand for the paid version of the product.  The key
+            questions to consider as you move through this dashboard are:</p>
+            <ol>
+                <li>Where are Onollo's customers located?</li>
+                <li>What do they sell?</li>
+                <li>Who are Onollo's power users?</li>
+            </ol>
+            <p><a href="https://www.youtube.com/embed/VQQR1VPeuWk">Watch a video</a>
+            on Onollo's social media management solution to learn more.</p>
+            <p>For more information on the audience for this project, please read below.  Furthermore, as you move
+            through the data story by clicking on the arrows on either side of the page, keep in mind the types of
+            personas we have identified for Onollo customers.</p>
+        </div-->
+
+    </div>
+
+    <hr>
+</div>
+
+<!-- Main content -->
+<div class="container">
+
+    <!-- PERSONAS -->
+    <h2 class="m-5 subtitle" style="text-align: center">Personas</h2>
+    <div class="row">
+
+        <!-- Brand -->
+        <div class="card personas col-4" style="width: 18rem;">
+            <img class="card-img-top" src="imgs/persona2.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Producer</h5>
+                <hr>
+                <p class="card-text">I'm a social media manager at a company that produces and distributes its own
+                    products.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Up to 100 products</li>
+                <li class="list-group-item">Single brand</li>
+                <li class="list-group-item">Up to 5 social media pages</li>
+            </ul>
+            <div class="card-body">
+                <a href="https://apple.com" class="card-link" target="_blank" rel="noopener noreferrer">Example</a>
+            </div>
+        </div>
+
+        <!-- Distributor -->
+        <div class="card personas col-4" style="width: 18rem;">
+            <img class="card-img-top" src="imgs/persona1.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Distributor</h5>
+                <hr>
+                <p class="card-text">I'm CEO of a multi-brand store with thousands of products delivered to us by
+                    many brands.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Thousands of products</li>
+                <li class="list-group-item">Multiple brands</li>
+                <li class="list-group-item">Up to 20 social media pages</li>
+            </ul>
+            <div class="card-body">
+                <a href="https://walmart.com" class="card-link" target="_blank" rel="noopener noreferrer">Example</a>
+            </div>
+        </div>
+
+        <!-- Agency -->
+        <div class="card personas col-4" style="width: 18rem;">
+            <img class="card-img-top" src="imgs/persona3.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Agency</h5>
+                <hr>
+                <p class="card-text">I'm an account manager at marketing agency that serves eCommerce stores around
+                    the world.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Thousands of products</li>
+                <li class="list-group-item">Multiple brands</li>
+                <li class="list-group-item">Hundreds of social media pages</li>
+            </ul>
+            <div class="card-body">
+                <a href="https://disruptiveadvertising.com/" class="card-link" target="_blank"
+                   rel="noopener noreferrer">Example</a>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="m-5 subtitle" style="text-align: center;">Audience</h2>
+    <div class="row">
+
+        <!-- CEO -->
+        <div class="card personas col-4" style="width: 18rem;">
+            <img class="card-img-top" src="imgs/distributor.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">CEO</h5>
+                <p class="card-text">As the CEO of the company, I need to know how my company is performing and who
+                    our users are.</p>
+            </div>
+            <ul class="list-group list-group-flush card-body">
+                <li class="list-group-item">
+                    <b>KPIs</b>: Average Published Posts, Store Average, Average Scheduled Posts
+                </li>
+            </ul>
+            <div class="card-body">
+                <b>Key views</b> :
+                <a href="index.html" class="card-link">Overview</a>,
+                <a href="recommendations.html" class="card-link">Recommendations</a>
+            </div>
+        </div>
+
+        <!-- Marketer -->
+        <div class="card personas col-4" style="width: 18rem;">
+            <img class="card-img-top" src="imgs/brand.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Marketer</h5>
+                <p class="card-text">As the marketer, I want to understand who are our target personas and where can
+                    I find them.</p>
+            </div>
+            <ul class="list-group list-group-flush card-body">
+                <li class="list-group-item">
+                    <b>KPIs</b>: Average Monthly Sales, Store Average, Average Number of Products
+                </li>
+            </ul>
+            <div class="card-body">
+                <b>Key views</b> :
+                <a href="geo.html" class="card-link">Geography</a>,
+                <a href="segments.html" class="card-link">Segments</a>
+            </div>
+        </div>
+
+        <!-- UX Researcher -->
+        <div class="card personas col-4" style="width: 18rem;">
+            <img class="card-img-top" src="imgs/agency.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">UX Researcher</h5>
+                <p class="card-text">As the UX Researcher, I want to understand my user, who they are, and how they
+                    use Onollo.</p>
+            </div>
+            <ul class="list-group list-group-flush card-body">
+                <li class="list-group-item">
+                    <b>KPIs</b>: Average Monthly Sales, Store Average, Average Number of Products
+                </li>
+            </ul>
+            <div class="card-body">
+                <b>Key views</b>:
+                <a href="engagement.html" class="card-link">Engagement</a>,
+                <a href="segments.html" class="card-link">Segments</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- PRICING -->
+    <h1 class="subtitle" style="text-align: center">Pricing Plans</h1>
+    <img class="mb-5" src="imgs/pricing.png" alt="Pricing" width="100%">
+    <hr>
+    <!-- TEAM -->
+    <h2 class="m-5 subtitle" style="text-align: center;">Meet the eCom Gurus Team</h2>
+    
+    <div class="row guru-team">
+        
+        <!-- Saiful (Project Lead) -->
+        <div class="col-4 team saif">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="imgs/saiful2.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Saiful Mahmood</h5>
+                <hr>
+                <p class="card-text">
+                    I work at Harvard as a Business Systems Analyst,
+                     and pursuing my masters in Data Science.
+                    I hope to use the learned skillsets
+                     to make the modes of delivering teaching
+                     and learning more accessible across the globe.
+                </p>
+                <hr>
+                <a href="https://www.linkedin.com/in/saifulmahmood/" class="btn btn-primary">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jon -->
+        <div class="col-4 team saif">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="imgs/jon.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Jon Topp</h5>
+                    <hr>
+                    <p class="card-text">I'm a financial analyst in Columbus, Ohio, currently working in
+                        financial services. I'm pursuing a graduate certificate in Data Science. I plan to
+                        switch careers building on my skills in providing analysis that tells the story behind
+                        the numbers.</p>
+                    <hr>
+                    <a href="http://linkedin.com/in/jon-topp-409bbb192" class="btn btn-primary">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Artin -->
+        <div class="col-4 team saif">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="imgs/artin.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Artin Bogdanov</h5>
+                    <hr>
+                    <p class="card-text">
+                        I'm co-founder of Onollo, a marketing automation tool for eCommerce stores.
+                        I'm finishing up my Bachelor's Degree in Computer Science.
+                        I plan to continue using learned skillsets in my start-up's initiatives.
+                    </p>
+                    <hr>
+                    <a href="https://www.linkedin.com/in/artinbogdanov/" class="btn btn-primary">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--h1 class="subtitle" style="text-align: center">Datasets</h1>
+
+    <p class="about_project_text m-5 brief">
+        All datasets can be found
+        <a href="https://drive.google.com/drive/folders/1nn6Zhubim2JOp-BbTydUc-rsxmBqh8G6?usp=sharing">here</a>.
+    </p>
+
+    <h1 class="subtitle" style="text-align: center">Technologies</h1>
+
+    <img src="imgs/tech.png" alt="Technologies logos"-->
+</div>
+
+
+<!-- Intro and arrows -->
+<!-- wrapper -->
+<!--div-- class="container-fluid" style="padding-top: 1vh">
+
+    <hr>
+    
+    <header class="page-header">
+        <h1 class="subtitle" style="text-align: center">Navigate Through the Dashboard</h1>
+    </header>
+
+    <div class="row">
+        <div class="col-1 brief">
+            <a href="index.html">
+                <i class="fas fa-arrow-left fa-7x"></i>
+            </a>
+
+        </div>
+        <div class="col brief">
+            Now that you understand the customer personas we have identified and the audience that this project is for,
+            click on the arrows on the right or left as you navigate through the dashboard.
+        </div>
+    
+        <div class="col-1 brief">
+            <a href="kpi.html">
+                <i class="fas fa-chevron-right fa-7x"></i>
+            </a>
+        </div>
+    </div-->
+    <!-- Footer -->
+    <footer class="footer">
+        <p id="copyright_note">Copyright © 2021 eCom Gurus</p>
+    </footer>
+</div>
+
+<!-- Load JS libraries -->
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+<!-- d3 -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/d3-array.v2.min.js"></script>
+<script src="https://d3js.org/d3-geo.v2.min.js"></script>
+
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://d3js.org/d3-geo.v1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>
+
+<!-- own JS -->
+<script src="js/engagement.js"></script>
+<script src="js/overviewMetrics.js"></script>
+<script src="js/dataPreProcessing.js"></script>
+<script src="js/pieCharts.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

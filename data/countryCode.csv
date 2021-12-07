@@ -1,0 +1,109 @@
+name,parent,value,code
+Origin,,0,
+Americas,Origin,0,
+Europe,Origin,0,
+Africa,Origin,0,
+Asia,Origin,0,
+Oceania,Origin,0,
+Andorra,Europe,12,AND
+Angola,Africa,1,AGO
+Australia,Oceania,181,AUS
+Austria,Europe,14,AUT
+Bahrain,Asia,1,BHR
+Bangladesh,Asia,4,BGD
+Belgium,Europe,13,BEL
+Bhutan,Asia,1,BTN
+Bolivia,Americas,1,BOL
+Bosnia and Herzegovina,Europe,3,BIH
+Brazil,Americas,48,BRA
+British Virgin Islands,Americas,1,VGB
+Brunei Darussalam,Asia,1,BRN
+Bulgaria,Europe,6,BGR
+Cameroon,Africa,1,CMR
+Canada,Americas,264,CAN
+Chile,Americas,13,CHL
+China,Asia,4,CHN
+Colombia,Americas,12,COL
+Costa Rica,Americas,5,CRI
+Cote d'Ivoire,Africa,1,CIV
+Croatia,Europe,4,HRV
+Curacao,Americas,1,CUW
+Cyprus,Europe,7,CYP
+Czechia,Europe,1,CZE
+Denmark,Europe,11,DNK
+Dominican Republic,Americas,3,DOM
+Ecuador,Americas,3,ECU
+Egypt,Africa,14,EGY
+Estonia,Europe,5,EST
+Finland,Europe,4,FIN
+France,Europe,93,FRA
+French Polynesia,Oceania,1,PYF
+Georgia,Asia,2,GEO
+Germany,Europe,101,DEU
+Ghana,Africa,1,GHA
+Greece,Europe,20,GRC
+Guatemala,Americas,1,GTM
+Honduras,Americas,2,HND
+Hong Kong,Asia,49,HKG
+Hungary,Europe,6,HUN
+Iceland,Europe,1,ISL
+India,Asia,175,IND
+Iraq,Asia,1,IRQ
+Ireland,Europe,22,IRL
+Israel,Asia,9,ISR
+Italy,Europe,86,ITA
+Jamaica,Americas,1,JAM
+Japan,Asia,22,JPN
+Kenya,Africa,1,KEN
+Kosovo,Europe,1,XKX
+Kuwait,Asia,7,KWT
+Latvia,Europe,5,LVA
+Lithuania,Europe,9,LTU
+Luxembourg,Europe,2,LUX
+Malaysia,Asia,13,MYS
+Maldives,Asia,2,MDV
+Malta,Europe,1,MLT
+Mauritius,Africa,3,MUS
+Mexico,Americas,28,MEX
+Morocco,Africa,11,MAR
+Myanmar,Asia,4,MMR
+Netherlands,Europe,44,NLD
+New Caledonia,Oceania,1,NCL
+New Zealand,Oceania,31,NZL
+Nigeria,Africa,8,NGA
+North Macedonia,Europe,2,MKD
+Norway,Europe,5,NOR
+Oman,Asia,1,OMN
+Pakistan,Asia,37,PAK
+Palestine,Asia,1,PSE
+Peru,Americas,5,PER
+Philippines,Asia,20,PHL
+Poland,Europe,5,POL
+Portugal,Europe,29,PRT
+Qatar,Asia,7,QAT
+Reunion,Africa,1,REU
+Romania,Europe,18,ROU
+Russia,Europe,1,RUS
+Rwanda,Africa,1,RWA
+Saudi Arabia,Asia,7,SAU
+Senegal,Africa,2,SEN
+Singapore,Asia,31,SGP
+Slovakia,Europe,6,SVK
+Slovenia,Europe,4,SVN
+South Africa,Africa,61,ZAF
+South Korea,Asia,1,KOR
+Spain,Europe,61,ESP
+Sri Lanka,Asia,5,LKA
+Sweden,Europe,20,SWE
+Switzerland,Europe,20,CHE
+Taiwan,Asia,4,TWN
+Thailand,Asia,6,THA
+Trinidad and Tobago,Americas,3,TTO
+Turkey,Asia,12,TUR
+Ukraine,Europe,4,UKR
+United Arab Emirates,Asia,39,ARE
+United Kingdom,Europe,456,GBR
+United States of America,Americas,2212,USA
+Uruguay,Americas,1,URY
+Viet Nam,Asia,1,VNM
+Zambia,Africa,2,ZMB

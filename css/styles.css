@@ -1,0 +1,332 @@
+.Africa {
+    fill: #FCB331;
+    /*stroke: #CFCFCF;*/
+}
+.Agency {
+    fill: #2DAA5A;
+    stroke: #CFCFCF;
+}
+.All {
+    fill: #6F6F6F;
+    stroke: #CFCFCF;
+}
+.Americas {
+    fill: #F15B2D;
+    /*stroke: #CFCFCF;*/
+}
+.Asia {
+    fill: #2DAA5A;
+    /*stroke: #CFCFCF;*/
+}
+.axis, .x-axis, .y-axis {
+    font-family: "Noto Sans";
+    font-size: 8pt;
+}
+.about_project_text {
+    font-size: 22px;
+    line-height: 45px;
+}
+.back1 {
+    background-color: mintcream;
+}
+#bar0, #bar1, #bar2, #bar3 {
+    height: 15vh;
+    width: 50vw;
+    margin-bottom: 10pt;
+    color: black;
+}
+#barcol {
+    height: 70vh;
+    width: 50vw;
+}
+.barlabel {
+    font-family: "Noto Sans";
+    font-size: 12px;
+    fill: black;
+    stroke: none;
+    /*background-color: linen;*/
+}
+.bar{
+    fill: #2DAA5A;
+}
+.bars {
+    fill: #A9A9A9;
+}
+.brief {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 18px;
+    /* width: auto; */
+    height: auto;
+    margin: 40px;
+    padding: 20px;
+    /* border: 1px black solid;
+    border-radius: 5px; */
+}
+.btn-primary {
+    background-color: #0077b5;
+}
+.buildingImage {
+    margin: auto;
+    display: block;
+    height: 400px;
+}
+.buildingLabel {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 16px;
+    text-anchor: end;
+    color: #F2E9E4;
+    font-weight: lighter;
+}
+.bullet {
+    margin-left: 238px;
+    margin-right: 360px;
+}
+.card-body, .card-text {
+    font-family: 'Encode Sans', sans-serif;
+}
+.card-header {
+    font-family: 'Encode Sans', sans-serif;
+}
+.card-title {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+}
+color1 {
+    fill: #F15B2D;
+}
+color2 {
+    fill: #FCB331;
+}
+color3 {
+    fill: #4838BF;
+}
+color4 {
+    fill: #2DAA5A;
+}
+color5 {
+    fill: #FFF831;
+}
+color6 {
+    fill: #B2A7FF;
+}
+color7 {
+    fill: #CCEDAC;
+}
+color8 {
+    fill: #3422B8;
+}
+color9 {
+    fill: #FACD9E;
+}
+color10 {
+    fill: #F6F5FC;
+}
+color11 {
+    fill: #CCA84E;
+}
+color12 {
+    fill: #F15A2D;
+}
+color13 {
+    fill: #E99FA0;
+}
+color14 {
+    fill: #589885;
+}
+color15 {
+    fill: #6F6F6F;
+}
+.container-fluid {
+    animation: transitionIn 0.75s;
+}
+#copyright_note {
+    margin-left: 40px;
+}
+.empty {
+    fill: #DCDCDC;
+    stroke: #CFCFCF;
+}
+.Europe {
+    fill: #B2A7FF;
+    /*stroke: #CFCFCF;*/
+}
+.fifthColor {
+    fill: #4838BF;
+    stroke: #CFCFCF;
+}
+.footer {
+    background-color: white;
+    vertical-align: middle;
+    color: black;
+    height: 30px;
+    margin-top: 60px;
+    text-align: center;
+    /* position: relative;
+    bottom: 0; */
+}
+.footnote {
+    font-family: Calibri, sans-serif;
+    font-size: 12px;
+}
+.Free {
+    fill: #FCB331;
+    stroke: #CFCFCF;
+}
+/* .fa-arrow {
+    width: 20px;
+    height: 20px;
+} */
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.graph-container {
+    margin: 0px 0px;
+}
+.graph-titles {
+    text-align: center;
+    color: #2a2a2a;
+    margin-bottom: 50px;
+}
+h1 {
+    margin-top: 100px;
+    font-family: "Trebuchet MS";
+}
+h4 {
+    font-family: "Trebuchet MS", serif;
+    font-size: 24px;
+}
+.heightLabel {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 14px;
+    text-anchor: start;
+    font-weight: lighter;
+}
+#histogram-chart {
+    height: 65vh;
+    width: 45vw;
+    margin-top: 25pt;
+}
+#imageArea {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+.label {
+    font-family: "Noto Sans";
+    font-size: 12px;
+}
+.last-item-breaker {
+    border-right: 1px solid grey;
+    margin-right: 30px;
+}
+.navbar-brand {
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.nav-item {
+    margin-right: 30px;
+}
+.Oceania {
+    fill: #FFF831;
+    /*stroke: #CFCFCF;*/
+}
+.overview-block {
+    font-family: "Trebuchet MS", serif;
+    stroke-width: 1px;
+    stroke: black;
+    fill: white;
+}
+.page-header {
+    margin: 30px 0 0 30px;
+    text-align: center;
+}
+.personas, .team {
+    margin: 20px auto;
+}
+.Pro {
+    fill: #4838BF;
+    stroke: #CFCFCF;
+}
+.saif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smallLabel {
+    font-family: "Noto Sans";
+    font-size: 10px;
+}
+#statsArea {
+    height: 30%;
+    margin: auto;
+    display: block;
+}
+.subtitle {
+    font-family: "Trebuchet MS", serif;
+    font-size: 32px;
+}
+.SuperPro {
+    fill: #F15B2D;
+    stroke: #CFCFCF;
+}
+.table {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 16px;
+}
+.tableHeading {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.talk {
+    font-family: "Noto Sans";
+    font-size: 14px;
+}
+.tdPricing {
+    height: 27vh;
+    width: 33vw;
+}
+.title {
+    font-family: "Trebuchet MS", serif;
+    font-size: 40px;
+}
+.title_jons {
+    margin-left: 60px;
+}
+.tmBox {
+    fill: #66CDAA;
+    stroke: #A9A9A9;
+}
+.tmBoxText {
+    fill: black;
+    font-family: Calibri, sans-serif;
+    font-size: 12px;
+}
+.tooltip {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.vistitle {
+    font-family: 'Encode Sans', sans-serif;
+    fill: black;
+    stroke: none;
+    font-size: 14pt;
+}
+
+.y_m {
+    font-size: 18px;
+}

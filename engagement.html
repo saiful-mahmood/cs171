@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>eCom Gurus -> Engagement</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Fontawesome CDN  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body class="back1">
+    
+<!-- Top Nav -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    
+    <!-- eCom Gurus logo -->
+    <a class="navbar-brand" href="index.html">
+        <img src="imgs/onollo_logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <span class="m-2">Analytics</span>
+    </a>
+
+    <!-- Nav items -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Overview</a>
+            <a class= "last-item-breaker"></a>
+            <a class="nav-item nav-link" href="kpi.html">KPIs</a>
+            <a class="nav-item nav-link active" href="engagement.html">Engagement</a>
+            <a class="nav-item nav-link" href="geo.html">Geography</a>
+            <a class="nav-item nav-link" href="segments.html">Customer Segments</a>
+            <a class="nav-item nav-link" href="pricing.html">Pricing Plans</a>
+            <a class="nav-item nav-link" href="recommendations.html">Recommendations</a>
+        </div>
+    </div>
+</nav>
+
+<!-- wrapper -->
+<div class="container-fluid" style="height: 100vh; padding-top: 1vh">
+    
+    <!-- Title -->
+    <header class="page-header">
+        <h1>Engagement</h1>
+    </header>
+
+    <!-- Intro and arrows -->
+    <div class="row">
+        <div class="col-1 brief">
+            <a href="kpi.html">
+                <i class="fas fa-chevron-left fa-7x"></i>
+            </a>
+            
+        </div>
+        <div class="col brief">
+            The following chart visualizes the relationship between the store's inventory size (products in store)
+            and the average amount of postings (average published posts). We can see that smaller stores, those with
+            fewer products, usually publish fewer postings as well. Therefore, the stores with larger catalogs
+            publish more often. The size of the piecharts reflects the number of companies in that bin. Using pie charts and the table, on the right side, we can see segments of what
+            type of products those stores are selling (store segments). It allows us to understand the product
+            offerings of our users.
+        </div>
+    
+        <div class="col-1 brief">
+            <a href="geo.html">
+                <i class="fas fa-chevron-right fa-7x"></i>
+            </a>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Main content -->
+    <div class="row m-5">
+        
+        <!-- Products-Posts Graph (with pies) -->
+        <div class="col-6" id="main_graph">
+            <div class="" id="myEngagementViz" style="width: 100%; height: 60vh; margin-top: 50px; padding-top: 0; padding-bottom: 1vh">
+            </div>
+        </div>
+
+        <!-- Segments detailed data -->
+        <div class="col-6 mb-5" id="more_details">
+
+            <!-- Content table -->
+            <div class="m-5" id="tableContent">
+            </div>
+    </div>
+    
+</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p id="copyright_note">Copyright © 2021 eCom Gurus</p>
+    </footer>
+</div>
+
+<!-- Load JS libraries -->
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+<!-- d3 -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/d3-array.v2.min.js"></script>
+<script src="https://d3js.org/d3-geo.v2.min.js"></script>
+
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://d3js.org/d3-geo.v1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>
+
+<!-- own JS -->
+<script src="js/engagement.js"></script>
+<script src="js/overviewMetrics.js"></script>
+<script src="js/dataPreProcessing.js"></script>
+<script src="js/pieCharts.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
